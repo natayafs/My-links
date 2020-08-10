@@ -1,28 +1,163 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container-fluid">
+    <div class="links container-fluid">
+
+    <img :src="avy" class="avatar" alt="avatar" />
+
+      <h1>{{ msg }}</h1>
+
+      <div class="link">
+        <a href="https://twitter.com/natayafs">
+          <img :src="twitter" width="30px" alt="twitter" />
+          Sigueme en Twitter
+        </a>
+      </div>
+
+      <div class="link">
+        <a href="https://natayafs.github.io/portfolio/">
+          <img :src="woman" width="30px" alt="woman" />
+          Mi portafolio
+        </a>
+      </div>
+
+      <div class="link">
+        <a href="https://www.linkedin.com/in/natayafs/">
+          <img :src="linkedin" width="30px" alt="linkedin" />
+          Mi Linkedin
+        </a>
+      </div>
+
+      <div class="link">
+        <a href="https://github.com/natayafs">
+          <img :src="github" width="30px" alt="github" />
+          Mi Github
+        </a>
+      </div>
+
+      <div class="link">
+        <a href="https://open.spotify.com/episode/1JA988AUa8A3bjl2yQGLrW">
+          <img :src="spotify" width="30px" alt="spotify" />
+          Audiolarguero ft. Jony
+        </a>
+      </div>
+    </div>
+
+    <div class="footer container-fluid">
+      <p>Created with <img :src="heart" width="15px" alt="heart" /> | © 2020 Nataya | All rights reserved</p>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import avy from './assets/avy.jpg'
+import heart from './assets/heart.png'
+import woman from './assets/woman.png'
+import twitter from './assets/twitter.png'
+import github from './assets/github.png'
+import linkedin from './assets/linkedin.png'
+import spotify from './assets/spotify.png'
+
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  name: 'app',
+  data () {
+    return {
+      msg: 'Nataya Soledad',
+      avy: avy,
+      heart: heart,
+      woman: woman,
+      twitter: twitter,
+      github: github,
+      linkedin: linkedin,
+      spotify: spotify
+    }
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-size: 100%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #3c373b;
+  margin: 1.5em 0em;
+}
+
+* {
+  background-color: transparent;
+}
+
+.links {
+  padding: 0.2em 1.6em;
+}
+
+.link {
+  margin: 0.5em;
+  padding: 0.6em;
+  font-weight: bold;
+}
+
+.link:nth-child(even) {
+  background: rgb(203,227,255);
+  background: -moz-linear-gradient(140deg, rgba(203,227,255,1) 0%, rgba(181,208,255,1) 35%, rgba(141,145,255,1) 100%);
+  background: -webkit-linear-gradient(140deg, rgba(203,227,255,1) 0%, rgba(181,208,255,1) 35%, rgba(141,145,255,1) 100%);
+  background: linear-gradient(140deg, rgba(203,227,255,1) 0%, rgba(181,208,255,1) 35%, rgba(141,145,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cbe3ff",endColorstr="#8d91ff",GradientType=1);
+}
+
+.link:nth-child(odd) {
+  background: rgb(255,225,158);
+  background: -moz-linear-gradient(140deg, rgba(255,225,158,1) 0%, rgba(255,204,89,1) 35%, rgba(255,166,88,1) 100%);
+  background: -webkit-linear-gradient(140deg, rgba(255,225,158,1) 0%, rgba(255,204,89,1) 35%, rgba(255,166,88,1) 100%);
+  background: linear-gradient(140deg, rgba(255,225,158,1) 0%, rgba(255,204,89,1) 35%, rgba(255,166,88,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe19e",endColorstr="#ffa658",GradientType=1);
+}
+
+.avatar {
+  width: 10em;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #eeeeee, #c8c8c8);
+  box-shadow:  10px 10px 24px #a7a7a7,
+               -10px -10px 24px #ffffff;
+  margin-bottom: 2em;
+}
+
+h1, h2 {
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #3c373b;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  background-color: white;
+  color: #3c373b;
+  font-size: 14px;
 }
 </style>
