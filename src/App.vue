@@ -42,6 +42,20 @@
       </div>
 
       <div class="link">
+        <a href="https://challengeacepted.netlify.app/">
+          <img :src="challenge" width="30px" alt="challenge" />
+          #ChallengeAcepted
+        </a>
+      </div>
+
+      <div class="link">
+        <a href="https://discord.gg/hYSX9b">
+          <img :src="mit" width="30px" alt="mit" />
+          Comunidad MIT
+        </a>
+      </div>
+
+      <div class="link">
         <a href="https://open.spotify.com/episode/1JA988AUa8A3bjl2yQGLrW">
           <img :src="spotify" width="30px" alt="spotify" />
           Audiolarguero ft. Jony
@@ -64,6 +78,8 @@ import github from './assets/github.png'
 import linkedin from './assets/linkedin.png'
 import spotify from './assets/spotify.png'
 import instagram from './assets/instagram.png'
+import challenge from './assets/black.png'
+import mit from './assets/mit.png'
 
 
 export default {
@@ -78,7 +94,9 @@ export default {
       github: github,
       linkedin: linkedin,
       spotify: spotify,
-      instagram: instagram
+      instagram: instagram,
+      challenge: challenge,
+      mit: mit
     }
   }
 }
