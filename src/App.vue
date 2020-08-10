@@ -14,6 +14,13 @@
       </div>
 
       <div class="link">
+        <a href="https://instagram.com/natayafs">
+          <img :src="instagram" width="30px" alt="instagram" />
+          Sigueme en Instagram
+        </a>
+      </div>
+
+      <div class="link">
         <a href="https://natayafs.github.io/portfolio/">
           <img :src="woman" width="30px" alt="woman" />
           Mi portafolio
@@ -56,6 +63,7 @@ import twitter from './assets/twitter.png'
 import github from './assets/github.png'
 import linkedin from './assets/linkedin.png'
 import spotify from './assets/spotify.png'
+import instagram from './assets/instagram.png'
 
 
 export default {
@@ -69,7 +77,8 @@ export default {
       twitter: twitter,
       github: github,
       linkedin: linkedin,
-      spotify: spotify
+      spotify: spotify,
+      instagram: instagram
     }
   }
 }
