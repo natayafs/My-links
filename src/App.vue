@@ -63,8 +63,11 @@
       </div>
     </div>
 
+    <div class="footer container-fluid mt-5">
+      <sup>Ilustración hecha por <a href="https://www.instagram.com/mostrocartoon/">@MostroCartoon</a></sup>
+    </div>
     <div class="footer container-fluid">
-      <p>Created with <img :src="heart" width="15px" alt="heart" /> | © 2020 Nataya | All rights reserved</p>
+      <p>Creado con <img :src="heart" width="15px" alt="heart" /> | © 2020 Nataya</p>
     </div>
   </div>
 </template>
@@ -182,7 +185,6 @@ a:hover {
 .footer {
   display: flex;
   justify-content: center;
-  margin-top: 5em;
   background-color: white;
   color: #3c373b;
   font-size: 14px;
