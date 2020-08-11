@@ -64,7 +64,7 @@
     </div>
 
     <div class="footer container-fluid mt-5">
-      <sup>Ilustración hecha por <a href="https://www.instagram.com/mostrocartoon/">@MostroCartoon</a></sup>
+      <sup>Ilustración hecha por <a style="color: #3c373b;" href="https://www.instagram.com/mostrocartoon/">@MostroCartoon</a></sup>
     </div>
     <div class="footer container-fluid">
       <p>Creado con <img :src="heart" width="15px" alt="heart" /> | © 2020 Nataya</p>
