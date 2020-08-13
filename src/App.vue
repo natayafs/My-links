@@ -49,7 +49,7 @@
       </div>
 
       <div class="link">
-        <a href="https://discord.gg/hYSX9b">
+        <a href="https://discord.gg/X3UP9Bj">
           <img :src="mit" width="30px" alt="mit" />
           Comunidad MIT
         </a>
