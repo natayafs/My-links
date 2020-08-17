@@ -9,47 +9,40 @@
       <div class="link">
         <a href="https://twitter.com/natayafs">
           <img :src="twitter" width="30px" alt="twitter" />
-          Sigueme en Twitter
+          Twitter
         </a>
       </div>
 
       <div class="link">
         <a href="https://instagram.com/natayafs">
           <img :src="instagram" width="30px" alt="instagram" />
-          Sigueme en Instagram
+          Instagram
         </a>
       </div>
 
       <div class="link">
         <a href="https://natayafs.github.io/portfolio/">
           <img :src="woman" width="30px" alt="woman" />
-          Mi portafolio
+          Portafolio
         </a>
       </div>
 
       <div class="link">
         <a href="https://www.linkedin.com/in/natayafs/">
           <img :src="linkedin" width="30px" alt="linkedin" />
-          Mi Linkedin
+          Linkedin
         </a>
       </div>
 
       <div class="link">
         <a href="https://github.com/natayafs">
           <img :src="github" width="30px" alt="github" />
-          Mi Github
+          Github
         </a>
       </div>
 
       <div class="link">
-        <a href="https://challengeacepted.netlify.app/">
-          <img :src="challenge" width="30px" alt="challenge" />
-          #ChallengeAcepted
-        </a>
-      </div>
-
-      <div class="link">
-        <a href="https://discord.gg/X3UP9Bj">
+        <a href="https://misionesit.netlify.app/">
           <img :src="mit" width="30px" alt="mit" />
           Comunidad MIT
         </a>
@@ -81,7 +74,6 @@ import github from './assets/github.png'
 import linkedin from './assets/linkedin.png'
 import spotify from './assets/spotify.png'
 import instagram from './assets/instagram.png'
-import challenge from './assets/black.png'
 import mit from './assets/mit.png'
 
 
@@ -98,7 +90,6 @@ export default {
       linkedin: linkedin,
       spotify: spotify,
       instagram: instagram,
-      challenge: challenge,
       mit: mit
     }
   }
@@ -157,7 +148,6 @@ export default {
 
 h1, h2 {
   font-weight: normal;
-  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
