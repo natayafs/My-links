@@ -42,18 +42,26 @@
       </div>
 
       <div class="link">
-        <a href="https://misionesit.netlify.app/">
+        <a href="https://comit.ar/">
           <img :src="mit" width="30px" alt="mit" />
           Comunidad MIT
         </a>
       </div>
 
       <div class="link">
-        <a href="https://open.spotify.com/episode/1JA988AUa8A3bjl2yQGLrW">
-          <img :src="spotify" width="30px" alt="spotify" />
-          Audiolarguero ft. Jony
+        <a href="https://www.youtube.com/watch?v=tabBLNTPInQ">
+          <img :src="youtube" width="30px" alt="webinar" />
+          Webinar ft. Silicon Misiones
         </a>
       </div>
+
+      <div class="link">
+        <a href="https://open.spotify.com/episode/1JA988AUa8A3bjl2yQGLrW">
+          <img :src="spotify" width="30px" alt="spotify" />
+          Audiolarguero ft. Jony Ariste
+        </a>
+      </div>
+
     </div>
 
     <div class="footer container-fluid mt-5">
