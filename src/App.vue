@@ -82,6 +82,7 @@ import github from './assets/github.png'
 import linkedin from './assets/linkedin.png'
 import spotify from './assets/spotify.png'
 import instagram from './assets/instagram.png'
+import youtube from './assets/youtube.png'
 import mit from './assets/mit.png'
 
 
@@ -98,6 +99,7 @@ export default {
       linkedin: linkedin,
       spotify: spotify,
       instagram: instagram,
+      youtube: youtube,
       mit: mit
     }
   }
