@@ -7,6 +7,13 @@
       <h1>{{ msg }}</h1>
 
       <div class="link">
+        <a href="chng.it/srLswSRf2D">
+          <img :src="paw" width="30px" alt="changeorg" />
+          ¡Firmá la petición acá!
+        </a>
+      </div>
+
+      <div class="link">
         <a href="https://twitter.com/natayafs">
           <img :src="twitter" width="30px" alt="twitter" />
           Twitter
@@ -84,6 +91,7 @@ import spotify from './assets/spotify.png'
 import instagram from './assets/instagram.png'
 import youtube from './assets/youtube.png'
 import mit from './assets/mit.png'
+import paw from './assets/paw.png'
 
 
 export default {
@@ -100,7 +108,8 @@ export default {
       spotify: spotify,
       instagram: instagram,
       youtube: youtube,
-      mit: mit
+      mit: mit,
+      paw: paw
     }
   }
 }
