@@ -7,7 +7,7 @@
       <h1>{{ msg }}</h1>
 
       <div class="link">
-        <a href="chng.it/srLswSRf2D">
+        <a href="https://chng.it/srLswSRf2D">
           <img :src="paw" width="30px" alt="changeorg" />
           ¡Firmá la petición acá!
         </a>
