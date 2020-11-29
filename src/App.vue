@@ -7,34 +7,6 @@
       <h1>{{ msg }}</h1>
 
       <div class="link">
-        <a href="http://chng.it/srLswSRf2D">
-          <img :src="paw" width="30px" alt="changeorg" />
-          ¡Firmá la petición acá!
-        </a>
-      </div>
-
-      <div class="link">
-        <a href="https://twitter.com/natayafs">
-          <img :src="twitter" width="30px" alt="twitter" />
-          Twitter
-        </a>
-      </div>
-
-      <div class="link">
-        <a href="https://instagram.com/natayafs">
-          <img :src="instagram" width="30px" alt="instagram" />
-          Instagram
-        </a>
-      </div>
-
-      <div class="link">
-        <a href="https://natayafs.github.io/portfolio/">
-          <img :src="woman" width="30px" alt="woman" />
-          Portafolio
-        </a>
-      </div>
-
-      <div class="link">
         <a href="https://www.linkedin.com/in/natayafs/">
           <img :src="linkedin" width="30px" alt="linkedin" />
           Linkedin
@@ -58,20 +30,44 @@
       <div class="link">
         <a href="https://www.youtube.com/watch?v=tabBLNTPInQ">
           <img :src="youtube" width="30px" alt="webinar" />
-          Webinar ft. Silicon Misiones
+          Webinar - Silicon Misiones
         </a>
       </div>
 
       <div class="link">
         <a href="https://open.spotify.com/episode/1JA988AUa8A3bjl2yQGLrW">
-          <img :src="spotify" width="30px" alt="spotify" />
-          Audiolarguero ft. Jony Ariste
+          <img :src="microphone" width="30px" alt="microphone" />
+          Entrevista - Jonatan Ariste
         </a>
       </div>
-    </div> 
+
+      <div class="link">
+        <a href="https://www.instagram.com/tv/CFiPGoRJA1s/?utm_source=ig_web_copy_link">
+          <img :src="microphone" width="30px" alt="microphone" />
+          Entrevista - Radio Circus FM
+        </a>
+      </div>
+
+      <div class="link">
+        <a href="https://enfoquemisiones.com/jonathan-y-nataya-egresados-de-la-universidad-del-conocimiento-es-un-proceso-que-no-solamente-tiene-que-ver-con-formacion-sino-con-inclusion/">
+          <img :src="microphone" width="30px" alt="microphone" />
+          Entrevista - Enfoque Misiones
+        </a>
+      </div>
+
+    </div>
 
     <div class="mt-3 footer">
-      <a href='https://cafecito.app/natayafs' rel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_3.png 1x, https://cdn.cafecito.app/imgs/buttons/button_3_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_3_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_3.png' alt='Invitame un café en cafecito.app' /></a>
+      <a href="https://twitter.com/natayafs">
+          <img :src="twitter" height="30px" alt="twitter" />
+      </a>
+      <a href="https://instagram.com/natayafs">
+          <img :src="instagram" height="30px" alt="instagram" />
+      </a>
+      <a href="https://cafecito.app/natayafs">
+          <img :src="cafecito" height="30px" alt="cafecito" />
+      </a>
+
     </div>
     <div class="footer container-fluid mt-5">
       <sup>Ilustración hecha por <a style="color: #3c373b;" href="https://www.instagram.com/mostrocartoon/">@MostroCartoon</a></sup>
@@ -84,17 +80,15 @@
 
 <script>
 import avy from './assets/avy.jpg'
-import heart from './assets/heart.png'
-import woman from './assets/woman.png'
 import twitter from './assets/twitter.png'
 import github from './assets/github.png'
+import cafecito from './assets/cafecito.png'
 import linkedin from './assets/linkedin.png'
-import spotify from './assets/spotify.png'
+import microphone from './assets/microphone.png'
 import instagram from './assets/instagram.png'
 import youtube from './assets/youtube.png'
 import mit from './assets/mit.png'
-import paw from './assets/paw.png'
-
+import heart from './assets/heart.png'
 
 export default {
   name: 'app',
@@ -103,15 +97,14 @@ export default {
       msg: 'Nataya Soledad',
       avy: avy,
       heart: heart,
-      woman: woman,
       twitter: twitter,
+      cafecito: cafecito,
       github: github,
       linkedin: linkedin,
-      spotify: spotify,
+      microphone: microphone,
       instagram: instagram,
       youtube: youtube,
-      mit: mit,
-      paw: paw
+      mit: mit
     }
   }
 }
