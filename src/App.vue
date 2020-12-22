@@ -79,7 +79,7 @@
 </template>
 
 <script>
-import avy from './assets/avy.jpg'
+import avy from './assets/avy.png'
 import twitter from './assets/twitter.png'
 import github from './assets/github.png'
 import cafecito from './assets/cafecito.png'
